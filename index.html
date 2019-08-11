@@ -220,7 +220,7 @@
 		$('#assignment').autocomplete({ //beginning of animal breed autocomplete
             minLength: 4,
             source: function(request, response,term) {
-			console.log("Pressed key");
+			//console.log("Pressed key");
                 var param = request.term;
                 $.ajax({
                     url: urlAss,
@@ -623,12 +623,12 @@ geocoder.reverse([lat,lng], geocodingCallback);
 
 function geocodingCallback(error, result) {
   //alert(result);
-	  alert(result.results[0].locations[0].street);
+	 // alert(result.results[0].locations[0].street);
       var location = result.results[0].locations[0];
       var street = location.street;
       var city = location.adminArea5;
 	 var acAddress=street +","+city;
-	 alert(street +", "+city);
+	 //alert(street +", "+city);
 	 if(saveORlog==0){
 		   document.getElementById("address").innerHTML=street +", "+city;
 			//var telNo=$("#loc_telNo").val();
