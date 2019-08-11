@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.clss.clsss" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="https://phonegap.com/ns/1.0">
+	<name>CLSS</name>
+	<description>
+		Fingerprint Location System
+	</description>
+	<author email="chepken@gmail.com" href="www.threepillars.co.ke">
+	  Chris Ken
+	</author>
+<icon src="images/Fingerprint.png" />
+	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
+	<gap:plugin name="cordova-plugin-android-fingerprint-auth" source="npm" />
+	<gap:plugin name="cordova-plugin-exitapp" source="npm" />
+	<gap:plugin name="cordova-plugin-device" source="npm" />	
+	
+	
+<access origin="*" />
+<allow-intent href="*" />
+<allow-navigation href="*" />
+<allow-intent href="geo:*" />
+	<preference name="phonegap-version" value="cli-8.0.0" />
+	
+</widget>
