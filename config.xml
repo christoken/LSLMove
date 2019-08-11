@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.LSLMove" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="https://phonegap.com/ns/1.0">
-	<name>CLSS</name>
+	<name>LSLMove</name>
 	<description>
 		Fingerprint Location System
 	</description>
